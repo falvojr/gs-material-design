@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application theme for Android API 21 or higher. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Your app branding color for the app bar. -->
+        <item name="android:colorPrimary">@color/color_primary</item>
+        <!-- Darker variant for the status bar and contextual app bars. -->
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+        <!-- Theme UI controls like checkboxes and text fields. -->
+        <item name="android:colorAccent">@color/color_accent</item>
+    </style>
+</resources>
