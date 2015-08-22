@@ -6,13 +6,18 @@
     </style>
 
     <!-- Base application theme. -->
-    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
         <!-- Your app branding color for the app bar. -->
         <item name="colorPrimary">@color/color_primary</item>
         <!-- Darker variant for the status bar and contextual app bars. -->
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <!-- Theme UI controls like checkboxes and text fields. -->
         <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">#F00</item>
+        <item name="android:textColorSecondary">#0F0</item>
     </style>
 
 </resources>
