@@ -1,2 +1,1 @@
-# gs-material-design
-Android Getting Started with Material Design
+# Getting Started with Material Design
