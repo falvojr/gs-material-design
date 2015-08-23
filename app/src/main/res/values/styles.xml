@@ -1,6 +1,6 @@
 <resources>
 
-    <!-- Application theme for Android API 8 until 20. -->
+    <!-- Application theme for Android API 9 until 20. -->
     <style name="AppTheme" parent="AppTheme.Base">
         <!-- Customize your theme here. -->
     </style>
