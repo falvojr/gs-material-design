@@ -15,9 +15,9 @@
         <item name="colorAccent">@color/color_accent</item>
     </style>
 
-    <style name="AppTheme.Toolbar" parent="@style/ThemeOverlay.AppCompat.Dark">
-        <item name="android:textColorPrimary">#F00</item>
-        <item name="android:textColorSecondary">#0F0</item>
+    <style name="ThemeOverlay.Toolbar" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:textColorSecondary">@color/text_color_secondary</item>
     </style>
 
 </resources>

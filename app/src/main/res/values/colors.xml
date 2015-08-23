@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Official Guideline: https://www.google.com/design/spec/style/color.html#color-color-palette -->
+<!-- Palette Generator : https://www.coolors.co -->
 <resources>
-    <!-- Reference: https://www.google.com/design/spec/style/color.html#color-color-palette -->
     <color name="color_primary">#3F51B5</color>
     <color name="color_primary_dark">#303F9F</color>
     <color name="color_accent">#FF4081</color>
+
+    <color name="text_color_primary">#FFFFFF</color>
+    <color name="text_color_secondary">#FFFFFF</color>
 </resources>
