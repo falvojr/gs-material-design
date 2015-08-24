@@ -18,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
 
         mToolbar = (Toolbar) super.findViewById(R.id.app_bar);
         super.setSupportActionBar(mToolbar);
+
+        assert super.getSupportActionBar() != null : super.getString(R.string.assert_action_bar);
+
+        super.getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
 
     @Override

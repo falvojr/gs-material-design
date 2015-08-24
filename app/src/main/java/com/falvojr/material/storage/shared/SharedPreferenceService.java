@@ -10,6 +10,10 @@ import android.content.Context;
  * @since 8/23/2015
  */
 public enum SharedPreferenceService {
+    /**
+     * Per the design guidelines, you should show the drawer on launch until the user manually
+     * expands it. This shared preference tracks this.
+     */
     USER_LEARNED_DRAWER(SharedPreferenceType.BOOLEAN);
 
     static final String NAME = "material_app_sp";
@@ -21,14 +25,14 @@ public enum SharedPreferenceService {
     }
 
     public <T> void put(Context context, T value) {
-        mSharedPreferenceType.put(context, this.getSharedPreferenceKey(), value);
+        mSharedPreferenceType.put(context, this.getKey(), value);
     }
 
     public <T> T get(Context context, T defaultValue) {
-        return mSharedPreferenceType.get(context, this.getSharedPreferenceKey(), defaultValue);
+        return mSharedPreferenceType.get(context, this.getKey(), defaultValue);
     }
 
-    private String getSharedPreferenceKey() {
+    public String getKey() {
         return super.name().toLowerCase();
     }
 }

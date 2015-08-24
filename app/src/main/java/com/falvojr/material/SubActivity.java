@@ -17,7 +17,7 @@ public class SubActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) super.findViewById(R.id.app_bar);
         super.setSupportActionBar(toolbar);
 
-        assert super.getSupportActionBar() != null : "Support ActionBar is null";
+        assert super.getSupportActionBar() != null : super.getString(R.string.assert_action_bar);
 
         super.getSupportActionBar().setHomeButtonEnabled(true);
         super.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
